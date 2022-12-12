@@ -6,6 +6,7 @@ using AOC22.Day5;
 using AOC22.Day6;
 using AOC22.Day7;
 using AOC22.Day8;
+using AOC22.Day9;
 
 string solutionPath = Directory.GetCurrentDirectory();
 
@@ -17,12 +18,15 @@ var day5 = new Day5(solutionPath);
 var day6 = new Day6(solutionPath);
 var day7 = new Day7(solutionPath);
 var day8 = new Day8(solutionPath);
+var day9 = new Day9(solutionPath);
 
-day1.Execute();
-day2.Execute();
-day3.Execute();
-day4.Execute();
-day5.Execute();
-day6.Execute();
-day7.Execute();
-day8.Execute();
+
+//day1.Execute();
+//day2.Execute();
+//day3.Execute();
+//day4.Execute();
+//day5.Execute();
+//day6.Execute();
+//day7.Execute();
+//day8.Execute();
+day9.Execute();
